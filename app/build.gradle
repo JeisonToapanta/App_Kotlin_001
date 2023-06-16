@@ -30,7 +30,14 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
+
+    //Habilita el enlace de vistas
+    ViewBinding{
+        enabled true
+    }
 }
+
+
 
 dependencies {
 
