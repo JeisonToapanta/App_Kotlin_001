@@ -32,7 +32,7 @@ android {
     }
 
     //Habilita el enlace de vistas
-    ViewBinding{
+    viewBinding{
         enabled true
     }
 }
